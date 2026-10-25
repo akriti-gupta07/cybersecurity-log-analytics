@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+backend/.env
+
+# Node.js
+node_modules/
+frontend/dist/
+
+# Dataset files
+data/raw/
+data/processed_test.csv
+ml_dataset.csv
+*.parquet
+
+# Generated model files
+*.pkl
+*.joblib
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
